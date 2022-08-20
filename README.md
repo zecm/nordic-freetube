@@ -52,7 +52,7 @@ If all works correctly, then you should have applied the Nord theme by now. Enjo
 1. Go to the resources directory  <br> `cd /opt/FreeTube/resources` <br><br>
 
 
-2. Extract the app.asar archive     <br> `sudo asar extract app.asar app_extract` <br><br>
+2. Extract the app.asar archive     <br> `sudo asar extract app.asar app_extracted` <br><br>
 
 3. Go to the dist directory   <br> `cd app_extracted/dist/` <br><br>
 
