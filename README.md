@@ -1,4 +1,4 @@
-# nordic-freetube
+# nordic-freetube <br>
 ## Overview & Credits
 A custom theme for the FreeTube YouTube Client that is based on the [Nord Color Palette](https://www.nordtheme.com/)
 
@@ -9,12 +9,14 @@ Updated and working version of Marc Llorca's [freetube-nord](https://github.com/
 
 
 
-# Windows:
+# Windows: <br>
 
 ## Pre-requisites:
 
 1. [7-Zip](https://www.7-zip.org/download.html)
 2. [Asar7z Plugin](https://www.tc4shell.com/en/7zip/asar/)
+
+<br>
 
 ## How to install:
 
@@ -35,12 +37,15 @@ Updated and working version of Marc Llorca's [freetube-nord](https://github.com/
 If all works correctly, then you should have applied the Nord theme by now. Enjoy!
 
 
+<br><br>
 
-# Linux:
+# Linux: <br>
 
 ## Pre-requisites:
 
 1. asar      &nbsp;  `sudo npm install -g asar`
+
+<br>
 
 ## How to install:
 
@@ -53,11 +58,16 @@ If all works correctly, then you should have applied the Nord theme by now. Enjo
 
 4. Remove the "renderer.f754525d9b3da96424e4.css" file and replace it with the one on my repository
 
+<br>
+
 5. Go back to the resources directory   <br> `cd ../..` <br><br>
 
 6. Replace the old app.asar <br> `sudo rm -f app.asar && sudo asar pack app_extracted app.asar && sudo rm -rf app_extracted` <br><br>
 
-7. Scroll down to "Theme Settings", then change into the following parameters:
+7. Open FreeTube, then go to Settings
+<br><br>
+
+8. Scroll down to "Theme Settings", then change into the following parameters:
     * Base Theme: Black
     * Main Color Theme: Cyan
     * Secondary Color Theme: Cyan
